@@ -62,10 +62,16 @@
         <button type="button" class="add-button">+ Добавить напиток</button>
       </div>
       <div style="margin-top: 30px">
-        <button type="submit" class="submit-button">Готово</button>
+        <button type="submit" class="submit-button" id="show-modal-btn">Готово</button>
       </div>
     </form>
-
+    <dialog style="padding: 0">
+      <div id="modal-box" style="padding: 1rem">
+        <div>Modal content</div>
+        <button id="close-modal-btn">Close</button>
+      </div>
+    </dialog>
+<!--    <button id="show-modal-btn">Show modal</button>-->
     <script src="index.js"></script>
   </body>
 </html>
