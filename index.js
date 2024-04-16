@@ -20,15 +20,3 @@ addbutton.addEventListener('click', (e) => {
     const form = document.getElementsByTagName('form')[0]
     form.insertBefore(clone, document.getElementsByClassName('123')[0])
 })
-
-
-document.addEventListener("DOMContentLoaded", function(){
-    document.querySelector('[href="#close"]').addEventListener('click',function(){
-      document.body.style.overflow = 'visible';
-      document.querySelector('#openModal').style.marginLeft = '0px';
-    });
-    document.getElementsByClassName('submit-button')[0].addEventListener('click', (e) => {
-        e.preventDefault();
-        document.body.style.overflow = 'hidden';
-      });
-  });
